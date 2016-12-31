@@ -8,7 +8,7 @@ var langIndice = 0;
 
 var jsonFile = "./data-sample.json";
 
-var reverseOrder = false;
+var reverseOrder = true;
 
 /***
 HTML
@@ -49,13 +49,6 @@ function footerAuthorUpdator(text, link) {
 /***
 NAVBAR
 ***/
-
-function removeNavEl() {
-    var navBarNode = document.querySelector(".nav.blog-nav");
-    while (navBarNode.firstChild) {
-        navBarNode.removeChild(navBarNode.firstChild);
-    }
-}
 
 function addNavEl(title, link) {
     if (link === undefined) {
@@ -131,13 +124,6 @@ LATBAR
 ABOUTME
 ***/
 
-function removeWhoIAmChildren() {
-    var parentNode = document.querySelector(".sidebar-module.sidebar-module-inset .list-unstyled");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
-
 function whoIAmTitleUpdator(text) {
     var el = document.querySelector(".sidebar-module.sidebar-module-inset h4");
     el.innerHTML = text;
@@ -154,13 +140,6 @@ function addWhoIAmChild(text) {
 /***
 LINKS
 ***/
-
-function removeLinkChildren() {
-    var parentNode = document.querySelector(".sidebar-module#link .list-unstyled");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
 
 function linkTitleUpdator(text) {
     var el = document.querySelector(".sidebar-module#link h4");
@@ -182,13 +161,6 @@ function addLinkChild(title, link) {
 /***
 TAGS CLOUD
 ***/
-
-function removeTagChildren() {
-    var parentNode = document.querySelector("#tags ul");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
 
 function tagTitleUpdator(text) {
     var el = document.querySelector(".sidebar-module#cloud h4");
@@ -259,13 +231,6 @@ function addPostChildLign(parentNodeQuery, title, metaData, content) {
 PRESENTATION
 ***/
 
-function removePresentation() {
-    var parentNode = document.querySelector("#presentation");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
-
 function addPresentation(content) {
     var newElDivPost = document.createElement("div");
     newElDivPost.className = "blog-post";
@@ -279,34 +244,13 @@ function addPresentation(content) {
 STUDIES
 ***/
 
-function removeStudyChildren() {
-    var parentNode = document.querySelector("#studies .row");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
-
 /***
 WORKEXPERIENCES
 ***/
 
-function removeWorkChildren() {
-    var parentNode = document.querySelector("#work-experiences");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
-
 /***
 ABOUT
 ***/
-
-function removeAboutChild() {
-    var parentNode = document.querySelector("#about");
-    while (parentNode.firstChild) {
-        parentNode.removeChild(parentNode.firstChild);
-    }
-}
 
 function removeCloudContainer() {
     document.getElementById("cloud").remove();
@@ -315,11 +259,21 @@ function removeCloudContainer() {
 function langSwitcher() {
     (langIndice == 0) ? lang = "fr": lang = "en";
     (lang == "en") ? langIndice = 0: langIndice = 1;
-    console.log("Switch to " + lang);
 
     init();
     //Reload Tags
     TagCanvas.Reload("tagsCloudCanvas");
+}
+
+/***
+GENERAL
+***/
+
+function removeAllChildren(selector) {
+    var parentNode = document.querySelector(selector);
+    while (parentNode.firstChild) {
+        parentNode.removeChild(parentNode.firstChild);
+    }
 }
 
 //The heart : parse the JSON file dans alter the DOM
@@ -330,14 +284,14 @@ function init() {
         var elementId;
 
         /*Section Remove*/
-        removeNavEl();
-        removePresentation();
-        removeWhoIAmChildren();
-        removeLinkChildren();
-        removeStudyChildren();
-        removeWorkChildren();
-        removeAboutChild();
-        removeTagChildren();
+        removeAllChildren(".nav.blog-nav");//removeNavEl();
+        removeAllChildren("#presentation");//removePresentation();
+        removeAllChildren(".sidebar-module.sidebar-module-inset .list-unstyled");//removeWhoIAmChildren();
+        removeAllChildren(".sidebar-module#link .list-unstyled");//removeLinkChildren();
+        removeAllChildren("#studies .row");//removeStudyChildren();
+        removeAllChildren("#work-experiences");//removeWorkChildren();
+        removeAllChildren("#about");//removeAboutChild();
+        removeAllChildren("#tags ul");//removeTagChildren();
 
         /*Update section*/
 

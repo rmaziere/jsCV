@@ -1,213 +1,336 @@
 {
   "site":[
-    {"lang" : "fr",
-      "htmlTitle" : "Titre de la page",
-      "title" : "Voici un exemple de jsCV !",
-      "description" : "Une description intéressante"
+    {
+      "lang":"fr",
+      "htmlTitle":"Titre de la page",
+      "title":"Voici un exemple de jsCV !",
+      "description":"Une description intéressante"
     },
-    {"lang" : "en",
-      "htmlTitle" : "Title of the page",
-      "title" : "This is an example of jsCV !",
-      "description" : "A really good description"
+    {
+      "lang":"en",
+      "htmlTitle":"Title of the page",
+      "title":"This is an example of jsCV !",
+      "description":"A really good description"
     }
   ],
-  "navBar" : [
-  {"lang" : "fr",
-   "array" : [
-     {"link" : "#",
-     "text" : "Accueil"},
-     {"link" : "#aboutme",
-     "text" : "Etat Civil"},
-     {"link" : "#studies",
-     "text" : "Formations"},
-     {"link" : "#work-experiences",
-     "text" : "Experiences Professionnelles"},
-     {"link" : "#about",
-     "text" : "A propos"},
-     {"link" : null,
-     "text" : "Switch to English"}
-    ]},
-  {"lang" : "en",
-   "array" : [
-     {"link" : "#",
-     "text" : "Home"},
-     {"link" : "#aboutme",
-     "text" : "Personnal Details"},
-     {"link" : "#studies",
-     "text" : "Studies"},
-     {"link" : "#work-experiences",
-     "text" : "Work Experiences"},
-     {"link" : "#about",
-     "text" : "About"},
-     {"link" : null,
-     "text" : "Passer en Francais"}
-    ]}
-],
-"links" : [
-{"lang" : "fr",
- "array" : [
-   {"link" : "https://www.linkedin.com/",
-   "text" : "Linkedin"},
-   {"link" : "https://github.com/",
-    "text" : "Github"},
-   {"link" : "https://www.viadeo.com/",
-   "text" : "Viadéo"},
-   {"link" : "https://fr.wikipedia.org/wiki/Open_source",
-   "text" : "Open source"}
-  ]},
-{"lang" : "en",
- "array" : [
-   {"link" : "https://www.linkedin.com/",
-   "text" : "Linkedin"},
-   {"link" : "https://github.com/",
-    "text" : "Github"},
-   {"link" : "https://en.wikipedia.org/wiki/Open-source_model",
-   "text" : "Open source"}
-  ]}
-],
+  "navBar":[
+    {
+      "lang":"fr",
+      "array":[
+        {
+          "link":"#",
+          "text":"Accueil"
+        },
+        {
+          "link":"#aboutme",
+          "text":"Etat Civil"
+        },
+        {
+          "link":"#studies",
+          "text":"Formations"
+        },
+        {
+          "link":"#work-experiences",
+          "text":"Experiences Professionnelles"
+        },
+        {
+          "link":"#about",
+          "text":"A propos"
+        },
+        {
+          "link":null,
+          "text":"Switch to English"
+        }
+      ]
+    },
+    {
+      "lang":"en",
+      "array":[
+        {
+          "link":"#",
+          "text":"Home"
+        },
+        {
+          "link":"#aboutme",
+          "text":"Personnal Details"
+        },
+        {
+          "link":"#studies",
+          "text":"Studies"
+        },
+        {
+          "link":"#work-experiences",
+          "text":"Work Experiences"
+        },
+        {
+          "link":"#about",
+          "text":"About"
+        },
+        {
+          "link":null,
+          "text":"Passer en Francais"
+        }
+      ]
+    }
+  ],
+  "links":[
+    {
+      "lang":"fr",
+      "array":[
+        {
+          "link":"https://www.linkedin.com/",
+          "text":"Linkedin"
+        },
+        {
+          "link":"https://github.com/",
+          "text":"Github"
+        },
+        {
+          "link":"https://www.viadeo.com/",
+          "text":"Viadéo"
+        },
+        {
+          "link":"https://fr.wikipedia.org/wiki/Open_source",
+          "text":"Open source"
+        }
+      ]
+    },
+    {
+      "lang":"en",
+      "array":[
+        {
+          "link":"https://www.linkedin.com/",
+          "text":"Linkedin"
+        },
+        {
+          "link":"https://github.com/",
+          "text":"Github"
+        },
+        {
+          "link":"https://en.wikipedia.org/wiki/Open-source_model",
+          "text":"Open source"
+        }
+      ]
+    }
+  ],
   "me":[
-    {"lang" : "fr",
-      "familyName" : "Mon nom",
-      "firstName" : "Mon prénom",
-      "dateOfBirth" : "17/09/1991",
-      "nationality" : "Français",
-      "drivingLicence" : "J'ai le Permis !",
-      "address" : null,
-      "city" : null,
-      "country" : "France",
-      "emailAddress" : "contact@me.world",
-      "phoneNumber" : "+33 1 42 92 81 00",
-      "presentation" : "<p>Un texte de présentation.</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"},
-    {"lang" : "en",
-      "familyName" : "My name",
-      "firstName" : "My firstname",
-      "dateOfBirth" : "09/17/1991",
-      "nationality" : "French",
-      "drivingLicence" : "I can drive !",
-      "address" : null,
-      "city" : null,
-      "country" : "On Earth",
-      "emailAddress" : "contact@me.world",
-      "phoneNumber" : "+1 202-456-1111",
-      "presentation" : "<p>A short presentation of you.</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"}
+    {
+      "lang":"fr",
+      "familyName":"Mon nom",
+      "firstName":"Mon prénom",
+      "dateOfBirth":"17/09/1991",
+      "nationality":"Français",
+      "drivingLicence":"J'ai le Permis !",
+      "address":null,
+      "city":null,
+      "country":"France",
+      "emailAddress":"contact@me.world",
+      "phoneNumber":"+33 1 42 92 81 00",
+      "presentation":"<p>Un texte de présentation.</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+    },
+    {
+      "lang":"en",
+      "familyName":"My name",
+      "firstName":"My firstname",
+      "dateOfBirth":"09/17/1991",
+      "nationality":"French",
+      "drivingLicence":"I can drive !",
+      "address":null,
+      "city":null,
+      "country":"On Earth",
+      "emailAddress":"contact@me.world",
+      "phoneNumber":"+1 202-456-1111",
+      "presentation":"<p>A short presentation of you.</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+    }
   ],
   "studies":[
-  {"lang" : "fr",
-   "array" : [
-    {"title" : "Ma première formation",
-      "graduated" : true,
-      "beginDate" : "Septembre 2000",
-      "endDate" : "Juin 2002",
-      "description" : "Lycée - Ville",
-      "content" : null},
-    {"title" : "Ma seconde formation",
-      "graduated" : true,
-      "beginDate" : "Septembre 2002",
-      "endDate" : "Juin 2004",
-      "description" : "Lycée - Ville",
-      "content" : null}
-   ]
-  },
-  {"lang" : "en",
-   "array" : [
-    {"title" : "My first training",
-      "graduated" : true,
-      "beginDate" : "September 2000",
-      "endDate" : "June 2002",
-      "description" : "University - City",
-      "content" : null},
-    {"title" : "My second training",
-      "graduated" : true,
-      "beginDate" : "September 2000",
-      "endDate" : "June 2002",
-      "description" : "University - City",
-      "content" : null}
-   ]
-  }
-],
-"workExperiences":[
-  {"lang" : "fr",
-    "array" : [
-      {"title" : "Mon premier travail",
-      "beginDate" : "Janvier 2010",
-      "endDate" : "Decembre 2012",
-      "description" : "<a href='#'>Société</a> Ville",
-      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
-      {"title" : "Mon second travail",
-      "beginDate" : "Janvier 2012",
-      "endDate" : "Decembre 2014",
-      "description" : "<a href='#'>Société</a> Ville",
-      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-    ]},
-  {"lang" : "en",
-    "array" : [
-      {"title" : "My first job",
-      "beginDate" : "January 2010",
-      "endDate" : "December 2012",
-      "description" : "<a href='#'>Company</a> City",
-      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
-      {"title" : "My second job",
-      "beginDate" : "January 2010",
-      "endDate" : "December 2012",
-      "description" : "<a href='#'>Company</a> City",
-      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-  ]}
-],
-"tags":[
-  {"lang" : "fr",
-    "array" : [
-      {"tag": "informatique",
-      "weight": 0.8},
-      {"tag": "réseau",
-      "weight": 0.4},
-      {"tag": "programmation",
-      "weight": 0.6},
-      {"tag": "javascript",
-      "weight": 0.7},
-      {"tag": "css",
-      "weight": 0.6},
-      {"tag": "html",
-      "weight": 0.8},
-      {"tag": "Linux",
-      "weight": 0.9},
-      {"tag": "Internet",
-      "weight": 0.8},
-      {"tag": "Ubuntu",
-      "weight": 0.9},
-      {"tag": "Super site",
-      "weight": 1}
-    ]},
-  {"lang" : "en",
-    "array" : [
-      {"tag": "computer science",
-      "weight": 0.8},
-      {"tag": "network",
-      "weight": 0.4},
-      {"tag": "computing",
-      "weight": 0.6},
-      {"tag": "javascript",
-      "weight": 0.7},
-      {"tag": "css",
-      "weight": 0.6},
-      {"tag": "html",
-      "weight": 0.8},
-      {"tag": "Linux",
-      "weight": 0.9},
-      {"tag": "Internet",
-      "weight": 0.8},
-      {"tag": "Ubuntu",
-      "weight": 0.9},
-      {"tag": "Great job",
-      "weight": 1}
-  ]}
-],
-"about":[
-  {"lang" : "fr",
-    "title" : "A propos de ce site",
-    "date" : "Décembre 2016",
-    "content" : "Ce site a été réalisé en se basant sur un modèle Bootstrap.</br>Les technologies utilisées sont : <ul><li>html5,</li><li>js,</li><li>json</li></ul></p><p>Je n'ai pas utilisé de php. ;-)</br>La page html ne contient que la structure élémentaire du site, l'intégralité des données sont contenues dans le JSON.</p><p>Ce projet est disponible sur <a href='https://github.com/rmaziere/jsCV' target='_blank'>GitHub/rmaziere/jsCV</a></p><p>J'ai utilisé des services en ligne comme : <ul><li><a href='http://jsoneditoronline.org' target='_blank'>jsoneditoronline.org</a> pour valider le JSON et visualiser sa structure,</li><li><a href='http://www.w3schools.com/js' target='_blank'>w3schools.com/js</a> qui m'a bien aidé,</li><li><a href='http://www.goat1000.com/tagcanvas.php' target='_blank'>goat1000.com/tagcanvas</a> pour le nuage de Tags,</li><li><a href='http://www.csvjson.com/csv2json' target='_blank'>csvjson.com/csv2json</a> pour convertir une liste csv en JSON pour les tags et leur poids.</li></ul>"},
-  {"lang" : "en",
-    "title" : "About this site",
-    "date" : "Decembre 2016",
-    "content" : "Ce site a été réalisé en se basant sur un modèle Bootstrap.</br>Les technologies utilisées sont : <ul><li>html5,</li><li>js,</li><li>json</li></ul></p><p>Je n'ai pas utilisé de php. ;-)</br>La page html ne contient que la structure élémentaire du site, l'intégralité des données sont contenues dans le JSON.</p><p>Ce projet est disponible sur <a href='https://github.com/rmaziere/jsCV' target='_blank'>GitHub/rmaziere/jsCV</a></p><p>J'ai utilisé des services en ligne comme : <ul><li><a href='http://jsoneditoronline.org' target='_blank'>jsoneditoronline.org</a> pour valider le JSON et visualiser sa structure,</li><li><a href='http://www.w3schools.com/js' target='_blank'>w3schools.com/js</a> qui m'a bien aidé,</li><li><a href='http://www.goat1000.com/tagcanvas.php' target='_blank'>goat1000.com/tagcanvas</a> pour le nuage de Tags,</li><li><a href='http://www.csvjson.com/csv2json' target='_blank'>csvjson.com/csv2json</a> pour convertir une liste csv en JSON pour les tags et leur poids.</li></ul>"}
-]}
+    {
+      "lang":"fr",
+      "array":[
+        {
+          "title":"Ma première formation",
+          "graduated":true,
+          "beginDate":"Septembre 2000",
+          "endDate":"Juin 2002",
+          "description":"Lycée - Ville",
+          "content":null
+        },
+        {
+          "title":"Ma seconde formation",
+          "graduated":true,
+          "beginDate":"Septembre 2002",
+          "endDate":"Juin 2004",
+          "description":"Lycée - Ville",
+          "content":null
+        }
+      ]
+    },
+    {
+      "lang":"en",
+      "array":[
+        {
+          "title":"My first training",
+          "graduated":true,
+          "beginDate":"September 2000",
+          "endDate":"June 2002",
+          "description":"University - City",
+          "content":null
+        },
+        {
+          "title":"My second training",
+          "graduated":true,
+          "beginDate":"September 2000",
+          "endDate":"June 2002",
+          "description":"University - City",
+          "content":null
+        }
+      ]
+    }
+  ],
+  "workExperiences":[
+    {
+      "lang":"fr",
+      "array":[
+        {
+          "title":"Mon premier travail",
+          "beginDate":"Janvier 2010",
+          "endDate":"Decembre 2012",
+          "description":"<a href='#'>Société</a> Ville",
+          "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "title":"Mon second travail",
+          "beginDate":"Janvier 2012",
+          "endDate":"Decembre 2014",
+          "description":"<a href='#'>Société</a> Ville",
+          "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "lang":"en",
+      "array":[
+        {
+          "title":"My first job",
+          "beginDate":"January 2010",
+          "endDate":"December 2012",
+          "description":"<a href='#'>Company</a> City",
+          "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "title":"My second job",
+          "beginDate":"January 2010",
+          "endDate":"December 2012",
+          "description":"<a href='#'>Company</a> City",
+          "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "tags":[
+    {
+      "lang":"fr",
+      "array":[
+        {
+          "tag":"informatique",
+          "weight":0.8
+        },
+        {
+          "tag":"réseau",
+          "weight":0.4
+        },
+        {
+          "tag":"programmation",
+          "weight":0.6
+        },
+        {
+          "tag":"javascript",
+          "weight":0.7
+        },
+        {
+          "tag":"css",
+          "weight":0.6
+        },
+        {
+          "tag":"html",
+          "weight":0.8
+        },
+        {
+          "tag":"Linux",
+          "weight":0.9
+        },
+        {
+          "tag":"Internet",
+          "weight":0.8
+        },
+        {
+          "tag":"Ubuntu",
+          "weight":0.9
+        },
+        {
+          "tag":"Super site",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "lang":"en",
+      "array":[
+        {
+          "tag":"computer science",
+          "weight":0.8
+        },
+        {
+          "tag":"network",
+          "weight":0.4
+        },
+        {
+          "tag":"computing",
+          "weight":0.6
+        },
+        {
+          "tag":"javascript",
+          "weight":0.7
+        },
+        {
+          "tag":"css",
+          "weight":0.6
+        },
+        {
+          "tag":"html",
+          "weight":0.8
+        },
+        {
+          "tag":"Linux",
+          "weight":0.9
+        },
+        {
+          "tag":"Internet",
+          "weight":0.8
+        },
+        {
+          "tag":"Ubuntu",
+          "weight":0.9
+        },
+        {
+          "tag":"Great job",
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "about":[
+    {
+      "lang":"fr",
+      "title":"A propos de ce site",
+      "date":"Décembre 2016",
+      "content":"Ce site a été réalisé en se basant sur un modèle Bootstrap.</br>Les technologies utilisées sont : <ul><li>html5,</li><li>js,</li><li>json</li></ul></p><p>Je n'ai pas utilisé de php. ;-)</br>La page html ne contient que la structure élémentaire du site, l'intégralité des données sont contenues dans le JSON.</p><p>Ce projet est disponible sur <a href='https://github.com/rmaziere/jsCV' target='_blank'>GitHub/rmaziere/jsCV</a></p><p>J'ai utilisé des services en ligne comme : <ul><li><a href='http://jsoneditoronline.org' target='_blank'>jsoneditoronline.org</a> pour valider le JSON et visualiser sa structure,</li><li><a href='http://www.w3schools.com/js' target='_blank'>w3schools.com/js</a> qui m'a bien aidé,</li><li><a href='http://www.goat1000.com/tagcanvas.php' target='_blank'>goat1000.com/tagcanvas</a> pour le nuage de Tags,</li><li><a href='http://www.csvjson.com/csv2json' target='_blank'>csvjson.com/csv2json</a> pour convertir une liste csv en JSON pour les tags et leur poids.</li></ul>"
+    },
+    {
+      "lang":"en",
+      "title":"About this site",
+      "date":"Decembre 2016",
+      "content":"This site was based on a Bootstrap model.<br>Used technologies are :<ul><li>html5,</li><li>js,</li><li>json</li></ul></p><p>I don’t used php. ;-)</p><p>The html page don’t contained any information, only the site structure, all data are into a JSON file.</p><p>This project is available on <a href='https://github.com/rmaziere/jsCV' target='_blank'>GitHub/rmaziere/jsCV</a></p><p>I used online services like : <ul><li><a href='http://jsoneditoronline.org' target='_blank'>jsoneditoronline.org</a> for JSON validation and visualisation,</li><li><a href='http://www.w3schools.com/js' target='_blank'>w3schools.com/js</a> which help me a lot,</li><li><a href='http://www.goat1000.com/tagcanvas.php' target='_blank'>goat1000.com/tagcanvas</a> for the tags cloud,</li><li><a href='http://www.csvjson.com/csv2json' target='_blank'>csvjson.com/csv2json</a> to convert csv list into a JSON file (for tags cloud).</li></ul>"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 This site was based on a Bootstrap model.
 I maded this site to change my CV site and have a HTML5 site.
 
-##Technology
+## Technology
 Used technologies are :
 
 - html5,
@@ -12,13 +12,13 @@ I don’t used php. ;-)
 
 The html page don’t contained any information, only the site structure, all data are into a JSON file.
 
-##Repository##
+## Repository
 This project is available on [GitHub/rmaziere/jsCV](https://github.com/rmaziere/jsCV)
 
-##Demo##
+## Demo
 An online demo is available : [dev.rmaziere.fr/jsCV](http://dev.rmaziere.fr/jsCV/).
 
-##Ressources##
+## Ressources
 I used online services like :
 
 - [jsoneditoronline.org](http://jsoneditoronline.org/) for JSON validation and visualisation,
@@ -26,7 +26,7 @@ I used online services like :
 - [goat1000.com/tagcanvas](http://www.goat1000.com/tagcanvas.php) for the tags cloud,
 - [csvjson.com/csv2json](http://www.csvjson.com/csv2json) to convert csv list into a JSON file (for tags cloud).
 
-##Suggested improvements##
+## Suggested improvements
 The JSON structure,
 script optimisation,
 ID integration,
